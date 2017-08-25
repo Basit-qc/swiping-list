@@ -1,0 +1,28 @@
+.scroll-div {
+    height: 500px;
+    overflow-y: scroll
+}
+
+.img-size {
+    height: 100%;
+    width: 100%;
+}
+
+.first-col {
+    padding-right: 7.5px;
+
+}
+
+.second-col {
+    padding-left: 7.5px;
+
+}
+.main-div {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent; /* make scrollbar transparent */
+}
